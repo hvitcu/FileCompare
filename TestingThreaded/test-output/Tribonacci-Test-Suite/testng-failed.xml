@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Tribonacci-Test-Suite]" parallel="tests">
+  <test name="Tribonacci-Test(failed)" parallel="tests">
+    <classes>
+      <class name="org.gradle.TribonacciTest">
+        <methods>
+          <include name="testGetTribonacciIterativeReturnsTwentyFithElementWhichIs_755476"/>
+          <include name="testGetTribonacciRecursiveReturnsFithElementWhichIs_2"/>
+          <include name="testGetTribonacciIterativeReturnsFourthElementWhichIs_1"/>
+          <include name="testGetTribonacciRecursiveReturnsThirdElementWhichIs_1"/>
+          <include name="testGetTribonacciRecursiveReturnsTwentyFithElementWhichIs_755476"/>
+          <include name="testGetTribonacciRecursiveReturnsSecondElementWhichIs_0"/>
+          <include name="testGetTribonacciIterativeReturnsTenthElementWhichIs_81"/>
+          <include name="testGetTribonacciIterativeReturnsSecondElementWhichIs_0"/>
+          <include name="testGetTribonacciRecursiveReturnsFourthElementWhichIs_1"/>
+          <include name="testGetTribonacciIterativeReturnsFirstElementWhichIs_0"/>
+          <include name="testGetTribonacciRecursiveReturnsFirstElementWhichIs_0"/>
+          <include name="testGetTribonacciRecursiveReturnsTenthElementWhichIs_81"/>
+          <include name="testGetTribonacciIterativeReturnsFithElementWhichIs_2"/>
+          <include name="testGetTribonacciIterativeReturnsThirdElementWhichIs_1"/>
+        </methods>
+      </class> <!-- org.gradle.TribonacciTest -->
+    </classes>
+  </test> <!-- Tribonacci-Test(failed) -->
+</suite> <!-- Failed suite [Tribonacci-Test-Suite] -->

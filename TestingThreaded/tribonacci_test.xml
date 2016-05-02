@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tribonacci-Test-Suite" parallel="tests" thread-count="3">
+	<test name="Tribonacci-Test test 1">
+		<parameter name="test-name" value="test-method One" />
+		<classes>
+			<class name="org.gradle.TribonacciTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Tribonacci-Test test 2">
+		<parameter name="test-name" value="test-method Two" />
+		<classes>
+			<class name="org.gradle.TribonacciTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Tribonacci-Test test 3">
+		<parameter name="test-name" value="test-method Three" />
+		<classes>
+			<class name="org.gradle.TribonacciTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+

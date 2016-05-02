@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="221" started-at="2016-04-18T10:40:58Z" finished-at="2016-04-18T10:40:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="221" started-at="2016-04-18T10:40:58Z" finished-at="2016-04-18T10:40:58Z">
+      <class name="implementation.FileReadAndCompareTest">
+        <test-method status="PASS" signature="setupTestClass()[pri:0, instance:implementation.FileReadAndCompareTest@6fc29daa]" name="setupTestClass" is-config="true" duration-ms="2" started-at="2016-04-18T11:40:58Z" finished-at="2016-04-18T11:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTestClass -->
+        <test-method status="PASS" signature="testFileReadCSVReturnsMap()[pri:0, instance:implementation.FileReadAndCompareTest@6fc29daa]" name="testFileReadCSVReturnsMap" duration-ms="2" started-at="2016-04-18T11:40:58Z" finished-at="2016-04-18T11:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFileReadCSVReturnsMap -->
+        <test-method status="PASS" signature="testFileReadCompareFilesCSVDifferent()[pri:0, instance:implementation.FileReadAndCompareTest@6fc29daa]" name="testFileReadCompareFilesCSVDifferent" duration-ms="7" started-at="2016-04-18T11:40:58Z" finished-at="2016-04-18T11:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFileReadCompareFilesCSVDifferent -->
+        <test-method status="PASS" signature="testFileReadCompareFilesNoDifferences()[pri:0, instance:implementation.FileReadAndCompareTest@6fc29daa]" name="testFileReadCompareFilesNoDifferences" duration-ms="2" started-at="2016-04-18T11:40:58Z" finished-at="2016-04-18T11:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFileReadCompareFilesNoDifferences -->
+        <test-method status="PASS" signature="testFileReadCompareFilesPIPEDifferent()[pri:0, instance:implementation.FileReadAndCompareTest@6fc29daa]" name="testFileReadCompareFilesPIPEDifferent" duration-ms="1" started-at="2016-04-18T11:40:58Z" finished-at="2016-04-18T11:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFileReadCompareFilesPIPEDifferent -->
+        <test-method status="PASS" signature="testFileReadPIPEReturnsMap()[pri:0, instance:implementation.FileReadAndCompareTest@6fc29daa]" name="testFileReadPIPEReturnsMap" duration-ms="1" started-at="2016-04-18T11:40:58Z" finished-at="2016-04-18T11:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFileReadPIPEReturnsMap -->
+        <test-method status="PASS" signature="testGetFileAsMapNullFile()[pri:0, instance:implementation.FileReadAndCompareTest@6fc29daa]" name="testGetFileAsMapNullFile" duration-ms="1" started-at="2016-04-18T11:40:58Z" finished-at="2016-04-18T11:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetFileAsMapNullFile -->
+        <test-method status="PASS" signature="testGetFileAsMapThrowsIOException()[pri:0, instance:implementation.FileReadAndCompareTest@6fc29daa]" name="testGetFileAsMapThrowsIOException" duration-ms="0" started-at="2016-04-18T11:40:58Z" finished-at="2016-04-18T11:40:58Z">
+          <exception class="java.io.IOException">
+            <message>
+              <![CDATA[java.lang.NullPointerException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.IOException: java.lang.NullPointerException
+	at implementation.FileReadAndCompare.getBufferedReader(FileReadAndCompare.java:49)
+	at implementation.FileReadAndCompare.getFileAsMap(FileReadAndCompare.java:22)
+	at implementation.FileReadAndCompareTest.testGetFileAsMapThrowsIOException(FileReadAndCompareTest.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+Caused by: java.lang.NullPointerException
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at implementation.FileReadAndCompare.getBufferedReader(FileReadAndCompare.java:47)
+	... 27 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.IOException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetFileAsMapThrowsIOException -->
+      </class> <!-- implementation.FileReadAndCompareTest -->
+      <class name="models.EmployeeTest">
+        <test-method status="PASS" signature="setupTestClass()[pri:0, instance:models.EmployeeTest@a565cbd]" name="setupTestClass" is-config="true" duration-ms="17" started-at="2016-04-18T11:40:58Z" finished-at="2016-04-18T11:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTestClass -->
+        <test-method status="PASS" signature="testEqualsAndHashCode()[pri:0, instance:models.EmployeeTest@a565cbd]" name="testEqualsAndHashCode" duration-ms="147" started-at="2016-04-18T11:40:58Z" finished-at="2016-04-18T11:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEqualsAndHashCode -->
+        <test-method status="PASS" signature="testGetAge()[pri:0, instance:models.EmployeeTest@a565cbd]" name="testGetAge" duration-ms="7" started-at="2016-04-18T11:40:58Z" finished-at="2016-04-18T11:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAge -->
+        <test-method status="PASS" signature="testGetJobStartDate()[pri:0, instance:models.EmployeeTest@a565cbd]" name="testGetJobStartDate" duration-ms="1" started-at="2016-04-18T11:40:58Z" finished-at="2016-04-18T11:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetJobStartDate -->
+        <test-method status="PASS" signature="testGetJobTitle()[pri:0, instance:models.EmployeeTest@a565cbd]" name="testGetJobTitle" duration-ms="1" started-at="2016-04-18T11:40:58Z" finished-at="2016-04-18T11:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetJobTitle -->
+        <test-method status="PASS" signature="testGetName()[pri:0, instance:models.EmployeeTest@a565cbd]" name="testGetName" duration-ms="1" started-at="2016-04-18T11:40:58Z" finished-at="2016-04-18T11:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetName -->
+      </class> <!-- models.EmployeeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

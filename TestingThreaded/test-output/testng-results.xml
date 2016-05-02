@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1134" started-at="2016-04-18T10:41:16Z" finished-at="2016-04-18T10:41:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1134" started-at="2016-04-18T10:41:16Z" finished-at="2016-04-18T10:41:17Z">
+      <class name="org.gradle.TribonacciTest">
+        <test-method status="PASS" signature="setupBeforeTest()[pri:0, instance:org.gradle.TribonacciTest@161f6623]" name="setupBeforeTest" is-config="true" duration-ms="9" started-at="2016-04-18T11:41:16Z" finished-at="2016-04-18T11:41:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeTest -->
+        <test-method status="PASS" signature="testGetTribonacciIterativeReturnsFirstElementWhichIs_0()[pri:0, instance:org.gradle.TribonacciTest@161f6623]" name="testGetTribonacciIterativeReturnsFirstElementWhichIs_0" duration-ms="24" started-at="2016-04-18T11:41:16Z" finished-at="2016-04-18T11:41:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTribonacciIterativeReturnsFirstElementWhichIs_0 -->
+        <test-method status="PASS" signature="testGetTribonacciIterativeReturnsFithElementWhichIs_2()[pri:0, instance:org.gradle.TribonacciTest@161f6623]" name="testGetTribonacciIterativeReturnsFithElementWhichIs_2" duration-ms="1" started-at="2016-04-18T11:41:16Z" finished-at="2016-04-18T11:41:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTribonacciIterativeReturnsFithElementWhichIs_2 -->
+        <test-method status="PASS" signature="testGetTribonacciIterativeReturnsFourthElementWhichIs_1()[pri:0, instance:org.gradle.TribonacciTest@161f6623]" name="testGetTribonacciIterativeReturnsFourthElementWhichIs_1" duration-ms="1" started-at="2016-04-18T11:41:16Z" finished-at="2016-04-18T11:41:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTribonacciIterativeReturnsFourthElementWhichIs_1 -->
+        <test-method status="PASS" signature="testGetTribonacciIterativeReturnsSecondElementWhichIs_0()[pri:0, instance:org.gradle.TribonacciTest@161f6623]" name="testGetTribonacciIterativeReturnsSecondElementWhichIs_0" duration-ms="1" started-at="2016-04-18T11:41:16Z" finished-at="2016-04-18T11:41:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTribonacciIterativeReturnsSecondElementWhichIs_0 -->
+        <test-method status="PASS" signature="testGetTribonacciIterativeReturnsTenthElementWhichIs_81()[pri:0, instance:org.gradle.TribonacciTest@161f6623]" name="testGetTribonacciIterativeReturnsTenthElementWhichIs_81" duration-ms="1" started-at="2016-04-18T11:41:16Z" finished-at="2016-04-18T11:41:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTribonacciIterativeReturnsTenthElementWhichIs_81 -->
+        <test-method status="PASS" signature="testGetTribonacciIterativeReturnsThirdElementWhichIs_1()[pri:0, instance:org.gradle.TribonacciTest@161f6623]" name="testGetTribonacciIterativeReturnsThirdElementWhichIs_1" duration-ms="1" started-at="2016-04-18T11:41:16Z" finished-at="2016-04-18T11:41:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTribonacciIterativeReturnsThirdElementWhichIs_1 -->
+        <test-method status="PASS" signature="testGetTribonacciIterativeReturnsTwentyFithElementWhichIs_755476()[pri:0, instance:org.gradle.TribonacciTest@161f6623]" name="testGetTribonacciIterativeReturnsTwentyFithElementWhichIs_755476" duration-ms="1" started-at="2016-04-18T11:41:16Z" finished-at="2016-04-18T11:41:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTribonacciIterativeReturnsTwentyFithElementWhichIs_755476 -->
+        <test-method status="PASS" signature="testGetTribonacciRecursiveReturnsFirstElementWhichIs_0()[pri:0, instance:org.gradle.TribonacciTest@161f6623]" name="testGetTribonacciRecursiveReturnsFirstElementWhichIs_0" duration-ms="1" started-at="2016-04-18T11:41:16Z" finished-at="2016-04-18T11:41:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTribonacciRecursiveReturnsFirstElementWhichIs_0 -->
+        <test-method status="PASS" signature="testGetTribonacciRecursiveReturnsFithElementWhichIs_2()[pri:0, instance:org.gradle.TribonacciTest@161f6623]" name="testGetTribonacciRecursiveReturnsFithElementWhichIs_2" duration-ms="2" started-at="2016-04-18T11:41:16Z" finished-at="2016-04-18T11:41:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTribonacciRecursiveReturnsFithElementWhichIs_2 -->
+        <test-method status="PASS" signature="testGetTribonacciRecursiveReturnsFourthElementWhichIs_1()[pri:0, instance:org.gradle.TribonacciTest@161f6623]" name="testGetTribonacciRecursiveReturnsFourthElementWhichIs_1" duration-ms="1" started-at="2016-04-18T11:41:16Z" finished-at="2016-04-18T11:41:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTribonacciRecursiveReturnsFourthElementWhichIs_1 -->
+        <test-method status="PASS" signature="testGetTribonacciRecursiveReturnsSecondElementWhichIs_0()[pri:0, instance:org.gradle.TribonacciTest@161f6623]" name="testGetTribonacciRecursiveReturnsSecondElementWhichIs_0" duration-ms="1" started-at="2016-04-18T11:41:16Z" finished-at="2016-04-18T11:41:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTribonacciRecursiveReturnsSecondElementWhichIs_0 -->
+        <test-method status="PASS" signature="testGetTribonacciRecursiveReturnsTenthElementWhichIs_81()[pri:0, instance:org.gradle.TribonacciTest@161f6623]" name="testGetTribonacciRecursiveReturnsTenthElementWhichIs_81" duration-ms="1" started-at="2016-04-18T11:41:16Z" finished-at="2016-04-18T11:41:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTribonacciRecursiveReturnsTenthElementWhichIs_81 -->
+        <test-method status="PASS" signature="testGetTribonacciRecursiveReturnsThirdElementWhichIs_1()[pri:0, instance:org.gradle.TribonacciTest@161f6623]" name="testGetTribonacciRecursiveReturnsThirdElementWhichIs_1" duration-ms="0" started-at="2016-04-18T11:41:16Z" finished-at="2016-04-18T11:41:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTribonacciRecursiveReturnsThirdElementWhichIs_1 -->
+        <test-method status="PASS" signature="testGetTribonacciRecursiveReturnsTwentyFithElementWhichIs_755476()[pri:0, instance:org.gradle.TribonacciTest@161f6623]" name="testGetTribonacciRecursiveReturnsTwentyFithElementWhichIs_755476" duration-ms="1" started-at="2016-04-18T11:41:16Z" finished-at="2016-04-18T11:41:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTribonacciRecursiveReturnsTwentyFithElementWhichIs_755476 -->
+      </class> <!-- org.gradle.TribonacciTest -->
+      <class name="org.gradle.ThreadedTribonacciTest">
+        <test-method status="PASS" signature="testThreaded()[pri:0, instance:org.gradle.ThreadedTribonacciTest@3e15bb06]" name="testThreaded" duration-ms="1056" started-at="2016-04-18T11:41:16Z" finished-at="2016-04-18T11:41:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThreaded -->
+      </class> <!-- org.gradle.ThreadedTribonacciTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,12 @@
+1 | Simon | 28 | Designer | 2010-04-11
+2 | Mary | 32 | Developer | 2011-06-15
+3 | Chris | 31 | Developer | 2012-11-06
+4 | Stuart | 45 | Designer | 2012-02-02
+5 | Jane | 41 | Project Manager | 2010-07-19
+6 | Emma | 38 | Designer | 2010-03-04
+7 | Julia | 38 | Developer | 2011-12-11
+8 | Sam | 32 | Marketing | 2013-01-04
+9 | Pam | 39 | Operations | 2013-02-16
+10 | Simon | 24 | Operations | 2012-09-02
+11 | Bob | 26 | Business Analyst | 2012-02-02
+12 | Frank | 22 | Business Analyst | 2010-11-30
