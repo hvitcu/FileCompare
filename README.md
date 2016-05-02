@@ -54,3 +54,17 @@ arguments.
 Write unit tests for the program you have created above.
 
 
+
+Please find the source code in the attachment.
+I have included both my initial train of thought python code and the finished TDD coded java. 
+On the first exercise I assumed the initial Tribonacci trio was 0, 0, 1, but changing that should not impact the overall functionality
+The second one uses the unit test resource files to test the implementation. The task was rather vague in that it said compare the two files, so I just 
+read 1 csv file vs 1 pipe file, and tested scenarious where the files were the same and different.
+I have tried naming the methods and classes as clearly as I could to make the could readable and require as little comments as possible.
+
+Coverage is 100% on both projects. 
+I used TestNG for the multithreaded testing capabilities, as well as the nl.jqno.equalsverifier.EqualsVerifier
+to test that the equals and hash methods have been correctly overridden/implemented.
+I would have parameterized the test for the first Exercise but that would not be as readable and would not show my TDD approach.
+Also the second test class in that exercise is there to simulate calls from different clients.
+
