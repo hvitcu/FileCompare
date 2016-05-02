@@ -31,6 +31,7 @@ of your choice.
 3) Data Comparison
 A database stores the details of employees in a table as follows:
 ID NAME AGE JOB_TITLE START_DATE
+
 1 Simon 28 Designer 2010-04-11
 2 Mary 32 Developer 2011-06-15
 3 Chris 31 Developer 2012-11-06
@@ -43,6 +44,7 @@ ID NAME AGE JOB_TITLE START_DATE
 10 Simon 24 Operations 2012-09-02
 11 Bob 26 Business Analyst 2012-02-02
 12 Frank 22 Business Analyst 2010-11-30
+
 The id field is the primary key on this table. Now imagine that the data in this table is sent out in a
 variety of formats, CSV / XML / Pipe separated etc.
 Without using any external libraries, write a program to compare a comma separated and a pipe
